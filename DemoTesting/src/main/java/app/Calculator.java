@@ -16,10 +16,6 @@ public class Calculator {
 		return ans;
 	}
 	
-	// Description -
-	
-//	hh
-	
 	// function to add a list of numbers
 	public int add(int...num) {
 		int sum = 0;
@@ -28,7 +24,8 @@ public class Calculator {
 		}
 		return sum;
 	}
-	
+	// Test comment
+	//Divide Method
 	public double divide(int i, int j) {
 		return i/j;
 	}
