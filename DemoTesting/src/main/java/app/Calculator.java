@@ -25,7 +25,14 @@ public class Calculator {
 		return sum;
 	}
 	
-	//Divide Method
+	public int subtract(int...num) {
+		int res = num[0];
+		for (int i = 1; i < num.length -1; i++) {
+			res -= num[i];
+		}
+		return res;
+	}
+	
 	public double divide(int i, int j) {
 		return i/j;
 	}
