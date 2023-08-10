@@ -24,7 +24,7 @@ public class Calculator {
 		}
 		return sum;
 	}
-	// Test comment
+	
 	//Divide Method
 	public double divide(int i, int j) {
 		return i/j;

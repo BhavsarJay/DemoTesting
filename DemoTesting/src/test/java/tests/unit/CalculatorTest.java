@@ -20,6 +20,7 @@ public class CalculatorTest {
 		calc = new Calculator(service);
 	}
 	
+	// Test for add function
 	@Test
 	public void testAdd() {
 		int expected = 10;
@@ -27,6 +28,7 @@ public class CalculatorTest {
 		assertEquals(expected, actual);
 	}
 	
+	//Test for divide function
 	@Test
 	public void testDivide() {
 		double expected = 5.0;
